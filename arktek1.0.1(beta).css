@@ -169,3 +169,154 @@ body {
     transition: left 0.3s ease;
   }
 }
+
+/*Arktek Buttons & Styles*/
+
+
+.arkbtn{
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #0066CC;
+padding: 10px 30px;
+border: solid #0066cc00 2px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+
+}
+
+.arkbtn:hover{
+transition : 1000ms;
+padding: 10px 37px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #0066cc;
+border: solid 2px #0066cc;
+
+}
+
+
+.arkalert{
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #d62828;
+padding: 10px 30px;
+border: solid #0066cc00 2px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+
+}
+
+.arkalert:hover{
+transition : 1000ms;
+padding: 10px 37px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #d62828;
+border: solid 2px #d62828;
+
+}
+
+.arctcaut{
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #e9c46a;
+padding: 10px 30px;
+border: solid #0066cc00 2px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+
+}
+
+.arkcaut:hover{
+transition : 1000ms;
+padding: 10px 37px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #e9c46a;
+border: solid 2px #e9c46a;
+
+}
+
+
+.arkgo{
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #2a9d8f;
+padding: 10px 30px;
+border: solid #0066cc00 2px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+
+}
+
+.arkgo:hover{
+transition : 1000ms;
+padding: 10px 37px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #2a9d8f;
+border: solid 2px #2a9d8f;
+
+}
+
+
+.arkout{
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #636363;
+padding: 10px 30px;
+border: solid #0066cc00 2px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+
+}
+
+.arkout:hover{
+transition : 1000ms;
+padding: 10px 37px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #808080;
+border: solid 2px #6b6b6b;
+
+}
