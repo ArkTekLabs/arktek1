@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Trirong");
+
 /* Define the grid row */
 body {
   display: flex;
@@ -5,8 +7,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Trirong", serif;
 }
-
 
 /* Define the grid columns */
 .arktek {
@@ -168,7 +170,7 @@ body {
 
 
 .arkbtn{
-font-family: Roboto, sans-serif;
+font-family: "Trirong", serif;
 font-weight: 0;
 font-size: 14px;
 color: #fff;
@@ -198,7 +200,7 @@ border: solid 2px #0066cc;
 
 
 .arkalert{
-font-family: Roboto, sans-serif;
+font-family: "Trirong", serif;
 font-weight: 0;
 font-size: 14px;
 color: #fff;
@@ -227,7 +229,7 @@ border: solid 2px #d62828;
 }
 
 .arctcaut{
-font-family: Roboto, sans-serif;
+font-family: "Trirong", serif;
 font-weight: 0;
 font-size: 14px;
 color: #fff;
@@ -257,7 +259,7 @@ border: solid 2px #e9c46a;
 
 
 .arkgo{
-font-family: Roboto, sans-serif;
+font-family: "Trirong", serif;
 font-weight: 0;
 font-size: 14px;
 color: #fff;
@@ -287,7 +289,7 @@ border: solid 2px #2a9d8f;
 
 
 .arkout{
-font-family: Roboto, sans-serif;
+font-family: "Trirong", serif;
 font-weight: 0;
 font-size: 14px;
 color: #fff;
