@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Trirong");
+@import url("https://arkteklab.com/fontstyles.css");
 
 /* Define the grid row */
 body {
@@ -9,6 +10,12 @@ body {
   box-sizing: border-box;
   font-family: "Trirong", serif;
 }
+
+.arktek-cancel-circle:before {
+  content: "\ea0d";
+  font-size: 30px;
+}
+
 
 /* Define the grid columns */
 .arktek {
@@ -62,7 +69,7 @@ body {
 }
 
 .arkbar {
-  background-color: #555555;
+  background-color: #f2ede9;
   /* set the background color of the navbar */
   flex-basis: 100%;
   flex-grow: 1;
@@ -74,7 +81,7 @@ body {
 }
 
 .arkbar-s {
-  background-color: #555555;
+  background-color: #f2ede9;
   /* set the background color of the navbar */
   flex-basis: 100%;
   flex-grow: 1;
@@ -90,17 +97,27 @@ body {
   /* styles for the toggle button */
 }
 
+
+.displaycontainer {
+  height: 1200px;
+  width: 100%;
+  
+  
+}
+
 .off-canvas {
   display: block;
   transition: left 0.3s ease;
   position: absolute;
   top: 0;
-  left: -300px;
+  left: -350px;
   /* set the width of the off-canvas div */
   height: 100%;
-  width: 300px;
+  width: 350px;
   /* set the width of the off-canvas div */
-  background-color: #555555;
+  background-color: #f2ede9;
+  border-radius: 0px 30px 30px 0px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .inblock {
@@ -148,7 +165,7 @@ body {
 .inblock-left {
     position: absolute;
     left: 0;
-    
+    top: 0;
 }
 
 
@@ -164,7 +181,6 @@ body {
     height: 100%;
     object-fit: cover;
 }
-
 
 /*Arktek Buttons & Styles*/
 
