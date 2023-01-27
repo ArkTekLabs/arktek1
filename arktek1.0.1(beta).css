@@ -109,7 +109,6 @@ body {
   display: block;
   transition: left 0.3s ease;
   position: absolute;
-  top: 0;
   left: -350px;
   /* set the width of the off-canvas div */
   height: 100%;
