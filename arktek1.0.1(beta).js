@@ -39,3 +39,16 @@ arkboxCloseBtns.forEach(button => {
     });
 });
 
+
+
+
+$(document).ready(function() {
+  // Initially load main.php into the div with ID of "display"
+  $("#display").load("/pages/main.php");
+
+  // Use jQuery AJAX to load the href content of links with class of "content"
+  $(".content").click(function(e) {
+    e.preventDefault();
+    $("#display").load($(this).attr("href"));
+  });
+});
